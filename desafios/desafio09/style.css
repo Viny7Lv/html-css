@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(22, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div{
+    text-align: center;
+    margin: 0px;
+}
+
+img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+div.container{
+    position: absolute;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, 50%);
+}
+
+img.voltar{
+    width: 50px;
+}
+
+p{
+    text-align: center;
+}

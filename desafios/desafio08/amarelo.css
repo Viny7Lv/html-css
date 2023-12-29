@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#amarelo{
+    color: rgb(233, 178, 1);
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(255, 251, 223, 0.854);
+}
+

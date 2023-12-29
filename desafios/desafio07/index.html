@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+
+    <h1>
+            Imagem Flexível
+    </h1>
+
+    <p>
+        Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência 🤯
+    </p>
+
+    <picture>
+        <source media="(min-width: 1230px)" srcset="imagens/paisagem-g.png" type="image/png">
+        <source media="(min-width: 760px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-p.png" alt="paisagem pequena pequena">
+    </picture>
+</body>
+</html>

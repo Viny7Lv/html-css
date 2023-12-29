@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+#verde{
+    color: green;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(149, 249, 123, 0.783);
+}
