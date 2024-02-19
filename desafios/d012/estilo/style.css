@@ -38,7 +38,7 @@ header > p {
     padding-bottom: 50px;
 }
 
-header a, footer a {
+header a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
@@ -95,7 +95,7 @@ footer {
     background-color: #000;
     color: #fff;
     text-align: center;
-    font-size: 1em;
+    font-size: 1rem;
     padding: 10px;
     font-family: var(--font01);
 }
@@ -103,7 +103,6 @@ footer {
 footer a {
     color: #fff;
     text-decoration: none;
-    font-weight: bolder;
 }
 
 footer a:hover {
@@ -111,6 +110,11 @@ footer a:hover {
 }
 
 .icon {
-    padding: 10px;
-    font-size: 1.1em;
+    padding: 6px;
+}
+
+@media (max-width: 650px) {
+    footer {
+        font-size: 0.8rem;
+    }
 }

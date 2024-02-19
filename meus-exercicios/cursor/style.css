@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cursor {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+#auto {
+    cursor: auto;
+}
+
+#all-scroll {
+    cursor: all-scroll;
+}
+
+#crosshair {
+    cursor: crosshair;
+}
+
+#default {
+    cursor: default;
+}
+
+#help {
+    cursor: help;
+}
+
+#move {
+    cursor: move;
+}
+
+#pointer {
+    cursor: pointer;
+}
+
+#progress {
+    cursor: progress;
+}
+
+#text {
+    cursor: text;
+}
+
+#vertical-text {
+    cursor: vertical-text;
+}
+
+#wait {
+    cursor: wait;
+}
+
+#no-drop {
+    cursor: no-drop;
+}
+
+#not-allowed {
+    cursor: not-allowed;
+}
+
+#e-resize {
+    cursor: e-resize;
+}
+
+#n-resize {
+    cursor: n-resize;
+}
+
+#s-resize {
+    cursor: s-resize;
+}
+
+#w-risize {
+    cursor: w-resize;
+}
+
+#col-resize {
+    cursor: col-resize;
+}
+
+#row-resize {
+    cursor: row-resize;
+}
+
+#ne-resize {
+    cursor: ne-resize;
+}
+
+#nw-resize {
+    cursor: nw-resize;
+}
+
+#se-resize {
+    cursor: se-resize;
+}
+
+#sw-resize {
+    cursor: sw-resize;
+}
+
+#zoom-in {
+    cursor: zoom-in;
+}
+
+#zoom-out {
+    cursor: zoom-out;
+}
+
+#custon {
+    cursor: url(./favicon.ico),auto;
+}
